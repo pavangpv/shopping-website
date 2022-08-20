@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -8,7 +9,9 @@ const Home = () => {
         </div>
         <div className='categories'>
          <div className='mens'>
+          <Link to="/menall">
               <img className='photo' src='https://media.gettyimages.com/photos/when-you-look-good-you-feel-good-picture-id692909934?s=2048x2048'/>
+              </Link>
          </div>
           <div className='women'>
          <img className='photo' src='https://media.istockphoto.com/id/1063212632/photo/beautiful-mixes-race-woman-holding-shopping-bags-and-smiling.webp?s=612x612&w=is&k=20&c=_dqyjp0Er_MRqCXrkfUTSCOsZ_UZyURzHS_jFlnTIT8='/>

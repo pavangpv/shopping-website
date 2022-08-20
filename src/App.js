@@ -7,14 +7,13 @@ import MenBottom from './MenBottom';
 import MenShirt from './MenShirt';
 import MensTshirt from './MensTshirt';
 import NavBar from "./NavBar";
+import WomenWestern from './WomenWestern';
 function App() {
 const[user, setUser] = useState()
   
   return (
     <BrowserRouter>
             <NavBar />
-     
-
       <Switch>
         <Route path="/menshirt">
         <MenShirt />
@@ -28,18 +27,17 @@ const[user, setUser] = useState()
         <Route path="/menall">
         <MenAll />
         </Route>
+        <Route path="/womenwestern">
+  <WomenWestern />
+  </Route>
         <Route path="/">
           <Home />
         </Route>
 
+
       </Switch>
 
-
-
     </BrowserRouter>
-   
-
-
   );
 }
 

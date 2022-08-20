@@ -170,6 +170,39 @@
             "title":"Solid Men Grey Night Short",
             "price":"$6"
         }
+    ],
+    "womenwestern":[
+        {
+            "image":"https://i.pinimg.com/564x/27/67/a0/2767a0cd56b7f2632f678a09a6d4041b.jpg",
+            "title":"black wester dress",
+            "price":"$10"
+        },
+       
+        {
+            "image":"https://rukminim1.flixcart.com/image/800/960/xif0q/dress/i/d/z/m-dv320-daevish-original-imag6fxn7fnrggra-bb.jpeg?q=50",
+            "title":"Women Maxi Black Dress",
+            "price":"$6"
+           },      
+             {
+            "image":"https://rukminim1.flixcart.com/image/800/960/xif0q/top/p/o/s/3xl-52-kamdev-original-imafyd6sa7ywhhr9-bb.jpeg?q=50",
+            "title":"Casual Regular Sleeves Printed Women Blue Top",
+            "price":"$13"
+           },       
+           {
+            "image":"https://i.pinimg.com/564x/27/67/a0/2767a0cd56b7f2632f678a09a6d4041b.jpg",
+            "title":"black wester dress",
+            "price":"$10"
+        },
+        {
+            "image":"https://rukminim1.flixcart.com/image/800/960/xif0q/dress/i/d/z/m-dv320-daevish-original-imag6fxn7fnrggra-bb.jpeg?q=50",
+            "title":"Women Maxi Black Dress",
+            "price":"$6"
+           },      
+             {
+            "image":"https://rukminim1.flixcart.com/image/800/960/xif0q/top/p/o/s/3xl-52-kamdev-original-imafyd6sa7ywhhr9-bb.jpeg?q=50",
+            "title":"Casual Regular Sleeves Printed Women Blue Top",
+            "price":"$13"
+           }
     ]
 }
 

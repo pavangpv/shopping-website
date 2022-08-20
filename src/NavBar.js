@@ -21,42 +21,16 @@ const NavBar = () => {
                     </li>
                     <li><Link to="/mentshirt">T-shirt</Link></li>
                     <li><Link to="/menbottom">Battomwear</Link> </li>
-                    <li><a href='#'>Watches</a></li>
                   </ul>
                  </div>
             </li>
             <li className='category'><a href='#'>Women</a>
             <div className='sub-categ'>
                   <ul>
-                    <li ><a href='#'>TopWear</a>
-                    </li>
-                    <li><a href='#'>BottomWear</a></li>
-                    <li><a href='#'>FootWEar</a></li>
-                    <li><a href='#'>Watches</a></li>
+                    <li ><Link to="/womenwestern">Western</Link>
+                   </li>
                   </ul>
-                 </div>
-            </li>
-            <li className='category'><a href='#'>Kids</a>
-            <div className='sub-categ'>
-                  <ul>
-                    <li ><a href='#'>TopWear</a>
-                    </li>
-                    <li><a href='#'>BottomWear</a></li>
-                    <li><a href='#'>FootWEar</a></li>
-                    <li><a href='#'>Watches</a></li>
-                  </ul>
-                 </div>
-            </li>
-            <li className='category'><a href='#'>Elcronics</a>
-            <div className='sub-categ'>
-                  <ul>
-                    <li ><a href='#'>Mobiles</a>
-                    </li>
-                    <li><a href='#'>Laptop</a></li>
-                    <li><a href='#'>Refregirstors</a></li>
-                    <li><a href='#'>Tv</a></li>
-                  </ul>
-                 </div>
+              </div>
             </li>
           </ul>
         </div>
