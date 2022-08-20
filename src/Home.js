@@ -14,7 +14,9 @@ const Home = () => {
               </Link>
          </div>
           <div className='women'>
+            <Link to="/womenwestern">
          <img className='photo' src='https://media.istockphoto.com/id/1063212632/photo/beautiful-mixes-race-woman-holding-shopping-bags-and-smiling.webp?s=612x612&w=is&k=20&c=_dqyjp0Er_MRqCXrkfUTSCOsZ_UZyURzHS_jFlnTIT8='/>
+         </Link>
           </div>
           <div className='kids'>
 <img className='photo' src='https://as1.ftcdn.net/v2/jpg/02/09/23/78/1000_F_209237853_PkcPTlx2zh7HIx7xFS0pe7xNWV02fP3v.jpg'></img>
