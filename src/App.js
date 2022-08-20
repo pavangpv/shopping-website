@@ -1,24 +1,45 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-
+import Home from './Home';
+import MenAll from './MenAll';
+import MenBottom from './MenBottom';
+import MenShirt from './MenShirt';
+import MensTshirt from './MensTshirt';
+import NavBar from "./NavBar";
 function App() {
+const[user, setUser] = useState()
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+            <NavBar />
+     
+
+      <Switch>
+        <Route path="/menshirt">
+        <MenShirt />
+        </Route>
+        <Route path="/mentshirt">
+        <MensTshirt />
+        </Route>
+        <Route path="/menbottom">
+        <MenBottom />
+        </Route>
+        <Route path="/menall">
+        <MenAll />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+
+      </Switch>
+
+
+
+    </BrowserRouter>
+   
+
+
   );
 }
 

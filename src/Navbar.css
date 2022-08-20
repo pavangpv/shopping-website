@@ -1,0 +1,49 @@
+.NavBar{
+display: flex;
+background-color: aquamarine;
+justify-content: space-evenly;
+top: 0;
+overflow: hidden;
+align-items: center;
+height: 70px;
+transition: 0.4s;
+width: 100%;
+}
+
+.logo > img{
+    height: 50px;
+}
+.list > ul{
+    display: flex;
+}
+.list > ul li{
+    list-style: none;
+    padding: 10px;
+}
+.sub-categ{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sub-categ a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.sub-categ a:hover{
+    background-color: #ddd;
+}
+.category:hover .sub-categ{
+    display: block;
+}
+.list > ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
